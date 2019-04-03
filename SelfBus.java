@@ -14,7 +14,7 @@ public class SelfBus {
         int ele=0;
         int m=1;
         int op=0;
-        for(i=0;i<num-1;i++)
+        for(i=0;i<num-m;i++)
         {
                 temp=sc.nextInt()-m;
                 temp2=sc.nextInt()-m;
