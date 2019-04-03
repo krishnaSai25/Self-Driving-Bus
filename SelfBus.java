@@ -17,14 +17,15 @@ public class SelfBus {
         for(i=0;i<num-1;i++)
         {
                 temp=sc.nextInt()-m;
-        temp2=sc.nextInt()-m;
+                temp2=sc.nextInt()-m;
             if(arr[temp][1]==0&&arr[temp2][1]!=0)
             {
-        arr[temp][1]=arr[temp2][1];
+                arr[temp][1]=arr[temp2][1];
             }
             else if(arr[temp][1]==0&&arr[temp2][1]==0)
             {
-                arr[temp][1]=ele+1;arr[temp2][1]=ele+1;
+                arr[temp][1]=ele+1;
+                arr[temp2][1]=ele+1;
                 ele++;
             }
             else if(arr[temp][1]!=0&&arr[temp2][1]==0)
